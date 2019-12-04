@@ -19,5 +19,5 @@ save
 ## source : https://vyos.readthedocs.io/en/latest/services/ssh.html
 configure
 set system login user vyos authentication public-keys 'identifier' key "AAAAB3Nz...."
-set system login user vyos authentication public-keys 'identifier' type ssh-rsa"
+set system login user vyos authentication public-keys 'identifier' type "ssh-rsa"
 commit
