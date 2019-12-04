@@ -10,7 +10,7 @@ $ sudo dpkg-reconfigure keyboard-configuration
 set service ssh
 ## activate snmp
 configure
-set service snmp community public
+set service snmp community afce2019
 set service snmp contact admin@localdomain
 set service snmp listen-address 172.22.23.xxx
 save
